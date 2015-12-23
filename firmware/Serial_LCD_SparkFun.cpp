@@ -29,7 +29,7 @@
 Serial_LCD_SparkFun::Serial_LCD_SparkFun() {
 	//pinMode(pin, OUTPUT);
 	Serial1.begin(9600);
-	_numlines = LCD_2LINE;
+	_numlines = LCD_4LINE;
 	_numchars = LCD_16CHAR;
 	_rowoffset = 0;
 }
